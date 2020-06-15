@@ -17,6 +17,7 @@ export class TSTabs extends TSElement {
 
 	static get properties() {
 		return {
+			/** Direction (rtl/ltr) */
 			dir: { type: String, reflect: true }
 		};
 	}
